@@ -5,9 +5,26 @@
 
 
 .logo{
+  margin-top:20px;
   @include span(2);
 
   img{
     max-width:100%;
+  }
+}
+
+.main-navigation{
+  margin-top:10px;
+  @include span(5 last);
+
+  li{
+    float: left;
+  }
+
+  a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
   }
 }
