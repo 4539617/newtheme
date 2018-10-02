@@ -23,8 +23,27 @@
 
   a{
     display: block;
-    color: #fff;
+    color: lightskyblue;
     text-decoration: none;
     padding: 0 10px;
+  }
+}
+
+.article-list{
+  h3{
+    a{
+      color: #464646;
+      text-decoration: none;
+     }
+    }
+  p{
+    line-height: 1.5;
+  }
+  .views-row{
+    margin: 40px 0;
+  }
+  .views-field-view-node a{
+    color: red;
+    text-decoration: none;
   }
 }
